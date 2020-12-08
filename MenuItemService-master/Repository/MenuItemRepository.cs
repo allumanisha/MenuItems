@@ -16,11 +16,11 @@ namespace MenuItemService.Repository
         };*/
         static List<MenuItem> menuItems = new List<MenuItem>()
         {
-            new MenuItem(){Id=1,Name="sandwich ",Price=200,Active=true,DateOfLaunch=DateTime.Parse("03/15/2017"),FreeDelivery=true,CategoryName="Main Course"},
-            new MenuItem(){Id=2,Name="Burger",Price=350,Active=true,DateOfLaunch=DateTime.Parse("12/23/2017"),FreeDelivery=false,CategoryName="Main Course"},
-            new MenuItem(){Id=3,Name="Pizza",Price=150,Active=true,DateOfLaunch=DateTime.Parse("08/21/2017"),FreeDelivery=false,CategoryName="Main course"},
-            new MenuItem(){Id=4,Name="French Fries",Price=300,Active=false,DateOfLaunch=DateTime.Parse("07/02/2017"),FreeDelivery=true,CategoryName="Starter"},
-            new MenuItem(){Id=5,Name="Chocolate Brownie",Price=300,Active=true,DateOfLaunch=DateTime.Parse("11/01/2020"),FreeDelivery=true,CategoryName="Dessert"}
+            new MenuItem(){Id=1,Name="Biriyani ",Price=250,Active=true,DateOfLaunch=DateTime.Parse("09/10/2010"),FreeDelivery=true,CategoryName="Main Course"},
+            new MenuItem(){Id=2,Name="Vegrole",Price=150,Active=true,DateOfLaunch=DateTime.Parse("02/13/2007"),FreeDelivery=true,CategoryName="Starter"},
+            new MenuItem(){Id=3,Name="Fried Rice",Price=300,Active=true,DateOfLaunch=DateTime.Parse("09/12/2017"),FreeDelivery=false,CategoryName="Main course"},
+            new MenuItem(){Id=4,Name="Samosa",Price=130,Active=false,DateOfLaunch=DateTime.Parse("19/12/2017"),FreeDelivery=true,CategoryName="Starter"},
+            new MenuItem(){Id=5,Name="Brownie",Price=300,Active=true,DateOfLaunch=DateTime.Parse("11/01/2020"),FreeDelivery=true,CategoryName="Dessert"}
         };
         public bool AddMenuItem(MenuItem item)
         {
