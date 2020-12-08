@@ -14,11 +14,11 @@ spec:
     spec:
       containers:
       - name: menuitemservicerepos
-        image: truyumcr.azurecr.io/menuitemservicerepos:latest
+        image: casecr.azurecr.io/menuitemservicerepos:latest
         ports:
         - containerPort: 8080
       imagePullSecrets:
-      - name: dsconfigsn
+      - name: dsconsigsn
 
 ---
 apiVersion: v1
